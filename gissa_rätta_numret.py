@@ -15,7 +15,7 @@ def arvauspeli():
 
     for yritys in range(1, yritykset + 1): # looppi, mikä lisää yritysten määrään +1
         try:
-            arvaus = int(input(f"Försök {yritys}/{yritykset} - Ge nummer: ")) # käyttäjä arvaa numeron
+            arvaus = ???(input(f"Försök {yritys}/{yritykset} - Ge nummer: ")) # käyttäjä arvaa numeron, pakko olla kokonaisluku ## 1: int, 2: float, 3: str, 4: bool
             
         except ValueError: # estetään käyttäjää antamasta muita kuin numeroita
             print("Varsågod och ange ett nummer.")
