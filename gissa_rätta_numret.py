@@ -15,7 +15,7 @@ def arvauspeli():
 
     for yritys in range(1, yritykset + 1): # looppi, mikä lisää yritysten määrään +1
         try:
-            arvaus = ???(input(f"Försök {yritys}/{yritykset} - Ge nummer: ")) # käyttäjä arvaa numeron, pakko olla kokonaisluku ## 1: int, 2: float, 3: str, 4: bool
+            arvaus = ????(input(f"Försök {yritys}/{yritykset} - Ge nummer: ")) # käyttäjä arvaa numeron, pakko olla kokonaisluku ## 1: str, 2: float, 3: int, 4: bool
             
         except ValueError: # estetään käyttäjää antamasta muita kuin numeroita
             print("Varsågod och ange ett nummer.")
@@ -29,7 +29,7 @@ def arvauspeli():
 
         # jos käyttäjä arvaa väärin
 
-        ???? arvaus < oikea_numero: # ehtolause, joka tarkistaa onko käyttäjän arvaus pienempi kuin oikea vastaus ## 1: if, 2: elif, 3: else, 4: while
+        ???? arvaus < oikea_numero: # ehtolause, joka tarkistaa onko käyttäjän arvaus pienempi kuin oikea vastaus ## 1: while, 2: elif, 3: else, 4: if
             print("För lågt!") # liian alhainen arvaus
 
         ????: # muussa tapauksessa ## 1: if, 2: elif, 3: else, 4: while
@@ -40,4 +40,4 @@ def arvauspeli():
         ????(1) # odotetaan 1 sekunti käyttäjän arvausten välillä ## 1: sleep, 2: wait, 3: pause, 4: stop
 
 # peli käyntiin
-arvauspeli???? # 1: (), 2: [], 3: {}, 4: <>
+arvauspeli???? # 1: {}, 2: [], 3: (), 4: <>
