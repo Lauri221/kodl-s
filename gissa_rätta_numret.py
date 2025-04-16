@@ -1,5 +1,5 @@
 import random # tarvitaan random-kirjasto
-from random import randint # tuodaan rardint, kun tarvitaan satunnainen kokonaisluku
+from random import randint # tuodaan randint, kun tarvitaan satunnainen kokonaisluku
 from time import sleep # tuodaan sleep, jotta voidaan lisätä ruudun päivitykseen odotusaika
 
 print("Välkommen till Gissningsspelet!") # tervetuloa arvauspeliin
